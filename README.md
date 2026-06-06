@@ -22,3 +22,19 @@ With help from AI to jumpstart your layout, you'll focus on structuring your con
 ### Fonts:
 - Proxima Nova
 - Avenir
+
+## Preview locally
+
+1. From the workspace root run:
+
+```bash
+python3 -m http.server 8000
+```
+
+2. Open http://localhost:8000 in your browser
+
+Notes
+- Images are loaded from Unsplash via external URLs. To use local images, place files in the `img/` folder and update the CSS `background-image` URL.
+- Brand colors used in the student landing page: Yellow `#FFC700`, Teal `#00A19D`, Black `#111111`, White `#FFFFFF`.
+
+If you want, I can swap the hero image to a different photo, create local image files, or add an export-friendly assets folder.
